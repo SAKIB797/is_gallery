@@ -1,0 +1,27 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+
+body {
+    font-size: 15pt;
+    padding-top: 100px;
+   margin: 18px;
+ margin-top: 0px;
+
+}
+#head_title {
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 22px;
+}
+#profile_button {
+ font-family: 'Times New Roman', Times, serif;
+}
+.bi-facebook {
+ font-size: 20pt;
+ color: white;
+}
+#custom-controls-gallery {
+ 
+}
+#head_nav {
+ 
+}

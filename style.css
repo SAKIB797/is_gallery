@@ -2,31 +2,37 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.css");
 
 body {
-    font-size: 15pt;
-    padding-top: 100px;
-   margin: 30px;
- margin-top: 0px;
+  font-size: 15pt;
+  padding-top: 100px;
+  margin: 30px;
+  margin-top: 0px;
 
 }
+
 #head_title {
- font-family: 'Times New Roman', Times, serif;
- font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
 }
+
 #profile_button {
- font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
+
 .bi-facebook {
- font-size: 20pt;
- color: white;
+  font-size: 20pt;
+  color: white;
 }
-#custom-controls-gallery {
- 
+
+
+#parentGrid {
+  /*parent*/
+  columns: 3;
+  column-fill: balance;
+  column-span: all;
+  column-gap: 8px;
 }
-#head_nav {
- 
-}
-#custom-controls-gallery img{
- 
-  
-  
+
+.grid_photo {
+  /*child*/
+  margin-bottom: 8px;
 }
